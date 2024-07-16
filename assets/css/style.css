@@ -4,12 +4,27 @@
     text-decoration: none;
     list-style: none;
 }
+
 body{
     background-color: black !important;
+    font-family: "Raleway", sans-serif;
+}
+p{
+    font-size: 15px;
+
+}
+h6{
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+   
+}
+h5{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
 }
 #logocvg {
     width: 8%;
-    margin-right: 10px;
+    margin-right: 0.625rem;
  }
  .carousel-inner img {
     height: 600px;
@@ -17,21 +32,25 @@ body{
 }
 .til{
     color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
 }
 .linea{
     background-color: white;
-    height: 3px;
+    height: 0.188rem;
+
 }
 .sec-qui{
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
     color: white;
- 
+    padding-top: 50px;
+
 }
 .bofa{
     background-color: #0dcaf0;
     width: 100%;
-    height: 50px;
+    height: 3.125rem;
 }
 .fa-ico{
     font-size: 2em;
@@ -39,13 +58,28 @@ body{
 
 .sec-con
 {
-    margin-top: 60px;
-    margin-bottom: 60px;
- 
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
+     
+}
+.cajacard{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.colr{
+    background-color: #0dcaf0;
+}
+.taimg{
+    height: 200px ;
+}
+
+#bo-ton{
+    background-color: #0dcaf0;
 }
 footer{
     background-color: #0dcaf0;
-    height: 90px;
+    height: 5.625rem;
+    
 }
 .rsejerci{
 
@@ -53,40 +87,21 @@ footer{
     display: flex;
     justify-content: baseline;
 
-
 }
 
 .texfoo{
    
-    font-size: 30px;
+    font-size: 1.875rem;
     width: auto;
     color: white;
-    text-align: center;
+    padding-top: 1.25rem;
+    padding-left:21.8rem;
 }
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    
-  }
+
+.tamafa{
+    padding-top: 2.188rem;
+    padding-right: 1.25rem;
+}
   
-.fa:hover {
+.tamafa:hover {
     opacity: 0.7; }
-
-    
-.fa-facebook {
-        color: white;
-}
-
-.fa-twitter {
-    
-    color: white;  
-}
-
-.fa-instagram {
-        color: white; 
-}
-
-.fa-youtube {
-    color: white; 
-}
