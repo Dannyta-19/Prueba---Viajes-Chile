@@ -3,8 +3,12 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
+  
 body{
     background-color: black !important;
     font-family: "Raleway", sans-serif;
@@ -73,35 +77,29 @@ h5{
     height: 200px ;
 }
 
-#bo-ton{
+#boton{
     background-color: #0dcaf0;
 }
+
 footer{
     background-color: #0dcaf0;
-    height: 5.625rem;
     
 }
-.rsejerci{
 
-    width: auto;
-    display: flex;
-    justify-content: baseline;
-
-}
 
 .texfoo{
    
     font-size: 1.875rem;
-    width: auto;
     color: white;
-    padding-top: 1.25rem;
-    padding-left:21.8rem;
-}
+   }  
 
-.tamafa{
-    padding-top: 2.188rem;
-    padding-right: 1.25rem;
+@media screen and (max-width:480px){
+    .sec-qui{
+        display: none;
+    }
+    .cajacard{
+        display:inline;
+        align-items: center;
+
+    }
 }
-  
-.tamafa:hover {
-    opacity: 0.7; }
