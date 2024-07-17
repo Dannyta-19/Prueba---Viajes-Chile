@@ -66,7 +66,7 @@ h5{
     margin-top: 3.75rem;
     margin-bottom: 3.75rem;
     color: white;
-    padding-top: 50px;
+    padding-top: 3.125rem;
 
 }
 .bofa{
@@ -79,14 +79,14 @@ h5{
 }
 /* Estilos de card*/
 .cajacard{
-    margin-top: 90px;
-    margin-bottom: 90px;
+    margin-top: 5.625rem;
+    margin-bottom: 5.625rem;
 }
 .colr{
     background-color: #0dcaf0;
 }
 .taimg{
-    height: 200px ;
+    height: 12.5rem ;
 }
 
 /* Estilos de contacto*/
@@ -108,10 +108,13 @@ h5{
 .tooltip-inner {
     background-color: #0dcaf0 !important;
     color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.125rem;
     
 }
 .tooltip.bs-tooltip-bottom .arrow::before {
     border-bottom-color: #0dcaf0 !important;
+    
 }
 /* Estilos de footer*/
 footer{

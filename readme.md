@@ -11,35 +11,35 @@ Examen "Viajes Chile"!
    - Implementé un navbar transparente que utiliza smooth scroll para los botones ubicados en el lado derecho de la pantalla.
 
 2. **Carrusel:**
-   - Diseñé un carrusel con movimiento automático para cambiar las imágenes, además de permitir el cambio manual mediante botones.
+   - Diseñé un carrusel con movimiento automático para cambiar las imágenes, además de permitir el cambio manual mediante botones. se cambio el tiempo en que pasan las imagenes por medio de js y se agrego pause para detenerse cuando pasa el cursos sobre la img del carrusel.
 
 3. **Sección "Quiénes Somos" Responsiva:**
-   - La sección "Quiénes somos" desaparece mediante media queries cuando la pantalla tiene un ancho de 480px o menos. También incluye smooth scroll para una mejor experiencia de usuario.
+   - La sección "Quiénes somos" desaparece mediante media queries cuando la pantalla tiene un ancho de 480px o menos. También incluye smooth scroll ligado al navbar.
 
 4. **Sección de Cards:**
    - Implementé una sección de cards que utiliza smooth scroll con los botones del navbar para una navegación.
 
 5. **Sección de Contacto:**
-   - Diseñé la sección de contacto con smooth scroll integrado con los botones del navbar. Cada input tiene tooltips informativos y el botón de envío muestra un mensaje al hacer clic.
+   - Diseñé la sección de contacto con smooth scroll integrado con los botones del navbar. Cada input tiene tooltips informativos, los que se les cambio el color con css  y el botón de envío muestra un mensaje de alerta al hacer clic.
 
 6. **Footer con Iconos de Redes Sociales:**
-   - El footer incluye iconos enlazados a las redes sociales para facilitar la conexión con los usuarios.
+   - El footer incluye iconos enlazados a las respectivas redes sociales.
 
 ## Maqueta Utilizada
-El diseño y estructura del proyecto "Viajes Chile" están basados en una maqueta proporcionada en el PDF.
+El diseño y estructura del proyecto "Viajes Chile" están basados en una maqueta proporcionada en el PDF de desafio latam.
 
 ## Se utilizo
 
 - HTML5 y CSS.
-- Bootstrap
-- jQuery
+- Bootstrap.
+- jQuery y js.
 - Font Awesome para iconos y Google Fonts.
 
 ## Historial de Commits
 
-Durante el desarrollo de este proyecto, realicé un total de 10 commits para mantener un registro detallado de los cambios realizados y el progreso del desarrollo.
+Durante el desarrollo de este proyecto, realicé un total de 11 commits para mantener un registro detallado de los cambios realizados y el progreso del desarrollo.
 
-# Requerimientos
+# Requerimientos del pdf
 
 1. **Construir la estructura de la página usando HTML**
     - Construir la estructura de un archivo HTML, utilizando correctamente las etiquetas semánticas para definir las distintas secciones de la página.

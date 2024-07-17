@@ -11,5 +11,11 @@ $("#boton").click(function(){
     $('.efect').tooltip({title: "Acá debes escribir el asunto de tu mensaje", animation: false, placement: "bottom"}); 
   });
 
-
+   /* js para carrusel*/ 
+  var myCarousel = document.querySelector('#demo')
+  var carousel = new bootstrap.Carousel(myCarousel, {
+    interval: 1000,
+    cycle: true,
+    pause: 'hover'
+  })
  
