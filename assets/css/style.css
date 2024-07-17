@@ -32,7 +32,7 @@ h5{
     font-family: "Raleway", sans-serif;
     font-weight: 400;
 }
-
+/* Estilos navbar*/
 #logocvg {
     width: 20%;
     margin-right: 0.625rem;
@@ -41,7 +41,7 @@ h5{
 .navbar link{
     cursor: pointer;
 }  
-
+/* Estilo carrusel*/
  .carousel-inner img {
     height: 37.5rem;
     object-fit: cover;
@@ -50,6 +50,7 @@ h5{
 .carousel button{
     cursor: pointer;
 }
+/* Estilos de los titulos y lineas*/
 .til{
     color: white;
     font-family: "Raleway", sans-serif;
@@ -60,6 +61,7 @@ h5{
     height: 0.188rem;
 
 }
+/* Estilos de quienes somos*/
 .sec-qui{
     margin-top: 3.75rem;
     margin-bottom: 3.75rem;
@@ -75,18 +77,11 @@ h5{
 .fa-ico{
     font-size: 2em;
 }
-
-.sec-con
-{
-    margin-top: 3.75rem;
-    margin-bottom: 3.75rem;
-     
-}
+/* Estilos de card*/
 .cajacard{
     margin-top: 90px;
     margin-bottom: 90px;
 }
-
 .colr{
     background-color: #0dcaf0;
 }
@@ -94,6 +89,13 @@ h5{
     height: 200px ;
 }
 
+/* Estilos de contacto*/
+.sec-con
+{
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
+     
+}
 #boton{
     background-color: #0dcaf0;
     border: 0;
@@ -111,7 +113,7 @@ h5{
 .tooltip.bs-tooltip-bottom .arrow::before {
     border-bottom-color: #0dcaf0 !important;
 }
-
+/* Estilos de footer*/
 footer{
     background-color: #0dcaf0;
 }
@@ -124,7 +126,7 @@ footer a i {
     color: white;
    }  
 
-@media screen and (max-width:480px){
+@media screen and (max-width:480px){ /* tamaño de mobile sacado de boostraps*/
     .sec-qui{
         display: none;
     }
