@@ -24,6 +24,9 @@ Examen "Viajes Chile"!
 
 6. **Footer con Iconos de Redes Sociales:**
    - El footer incluye iconos enlazados a las respectivas redes sociales.
+     
+7. **Github Pages**
+- https://dannyta-19.github.io/Prueba---Viajes-Chile/
 
 ## Maqueta Utilizada
 El diseño y estructura del proyecto "Viajes Chile" están basados en una maqueta proporcionada en el PDF de desafio latam.
