@@ -1,8 +1,9 @@
   /*click en el boton de contacto */
+
 $("#boton").click(function(){
     alert("El mensaje fue enviado correctamente")
-    
   });
+
   /* tooltip de contacto*/
 
   $(document).ready(function(){
@@ -12,10 +13,10 @@ $("#boton").click(function(){
   });
 
    /* js para carrusel*/ 
+
   var myCarousel = document.querySelector('#demo')
   var carousel = new bootstrap.Carousel(myCarousel, {
     interval: 1000,
     cycle: true,
     pause: 'hover'
   })
- 

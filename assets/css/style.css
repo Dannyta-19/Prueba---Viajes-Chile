@@ -9,24 +9,20 @@
 html {
     scroll-behavior: smooth;
   }
-  
 body{
     background-color: black !important;
     font-family: "Raleway", sans-serif;
 }
 p{
     font-size: 0.938rem;
-
 }
 h3{
     font-family: "Raleway", sans-serif;
     font-size: 2.188rem;   
 }
-
 h6{
     font-family: "Raleway", sans-serif;
     font-size: 1.563rem;
-   
 }
 h5{
     font-family: "Raleway", sans-serif;
@@ -36,8 +32,7 @@ h5{
 #logocvg {
     width: 20%;
     margin-right: 0.625rem;
- }
-
+}
 .navbar link{
     cursor: pointer;
 }  
@@ -46,7 +41,6 @@ h5{
     height: 37.5rem;
     object-fit: cover;
 } 
-
 .carousel button{
     cursor: pointer;
 }
@@ -88,13 +82,11 @@ h5{
 .taimg{
     height: 12.5rem ;
 }
-
 /* Estilos de contacto*/
 .sec-con
 {
     margin-top: 3.75rem;
-    margin-bottom: 3.75rem;
-     
+    margin-bottom: 3.75rem;   
 }
 #boton{
     background-color: #0dcaf0;
@@ -104,7 +96,6 @@ h5{
 #boton:hover{
     background-color: #065e6f;
 }
-
 .tooltip-inner {
     background-color: #0dcaf0 !important;
     color: #fff;
@@ -113,8 +104,7 @@ h5{
     
 }
 .tooltip.bs-tooltip-bottom .arrow::before {
-    border-bottom-color: #0dcaf0 !important;
-    
+    border-bottom-color: #0dcaf0 !important;   
 }
 /* Estilos de footer*/
 footer{
@@ -127,8 +117,7 @@ footer a i {
    
     font-size: 1.875rem;
     color: white;
-   }  
-
+}  
 @media screen and (max-width:480px){ /* tamaño de mobile sacado de boostraps*/
     .sec-qui{
         display: none;
